@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github } from "lucide-react";
 import { motion } from "motion/react";
 
 export function Hero() {
@@ -51,22 +51,12 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
         >
           <a 
-            href="#"
+            href="https://github.com/pgh4131"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-colors border border-slate-700"
           >
             <Github className="w-6 h-6 text-slate-300" />
-          </a>
-          <a 
-            href="#"
-            className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-colors border border-slate-700"
-          >
-            <Linkedin className="w-6 h-6 text-slate-300" />
-          </a>
-          <a 
-            href="#"
-            className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-colors border border-slate-700"
-          >
-            <Mail className="w-6 h-6 text-slate-300" />
           </a>
         </motion.div>
       </div>
